@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "de9f4a0b2fa0dc18",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebd924794775443a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e524c68abe3c7a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "면접 준비.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d72877ae86f61522",
+    "type": "split",
+    "children": [
+      {
+        "id": "750bb07c981d9869",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a07328de07dad59c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "17cd20ec6a554f1f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "48deec4c077e60ed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "18560a5196a33d03",
+    "type": "split",
+    "children": [
+      {
+        "id": "17d3539b9ffc4943",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "394a6f7d3b8a4c9a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "면접 준비.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8137e8158da97604",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "면접 준비.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "010dad1519be4add",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a12e414c3f3f0faa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "면접 준비.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "6e524c68abe3c7a2",
+  "lastOpenFiles": [
+    "면접 준비.md",
+    "SQL Tutorial/5. Conditional Expressions (조건식).md",
+    "무제 파일.md",
+    "SQL Tutorial/12. Working with table structures (데이터 구조정의 작업).md",
+    "RestAPI.md",
+    "SQL Tutorial/11. Modifying data (데이터 수정).md",
+    "SQL Tutorial/10. Subquery (서브쿼리, 하위쿼리).md",
+    "React Router Dom 보강/React Router Dom.md",
+    "SQL Tutorial/13. Constraints (제약조건).md",
+    "controller, repository, entity, serivce 등 참고.md",
+    "SQL Tutorial/1. SQL 소개.md",
+    "SQL Tutorial/SQL Tutorial.md",
+    "SQL Tutorial/정규화.md",
+    "SQL Tutorial/9. SET Operators (SET 연산자).md",
+    "SQL Tutorial/8. Grouping Data (데이터 그룹화).md",
+    "SQL Tutorial/7. Aggregate Functions (집계 함수).md",
+    "SQL Tutorial/6. Joining Multiple Tables (여러 테이블 조인).md",
+    "SQL Tutorial/4. Filtering Data (데이터 필터링).md",
+    "SQL Tutorial/3. Sorting Data (데이터 정렬).md",
+    "SQL Tutorial/2. Querying Data (데이터 쿼리).md",
+    "Database.md",
+    "JAVA - Discord.md",
+    "React 공부.md",
+    "2 차 프로젝트.md",
+    "backend.md",
+    "Course.js.md",
+    "img/Pasted image 20231218155207.png",
+    "img",
+    "React Router Dom 보강",
+    "API 보강",
+    "img/Pasted image 20231227134649.png",
+    "img/Pasted image 20231227134611.png",
+    "img/Pasted image 20231227134432.png",
+    "SQL Tutorial",
+    "img/Pasted image 20231219155557.png",
+    "img/Pasted image 20231219155517.png",
+    "img/Pasted image 20231218164722.png",
+    "img/Pasted image 20231218164649.png",
+    "img/Pasted image 20231218164452.png",
+    "img/Pasted image 20231218164151.png",
+    "JWT",
+    "Unity",
+    "무제 파일.canvas",
+    "1 차 프로젝트/icons",
+    "새 폴더"
+  ]
+}

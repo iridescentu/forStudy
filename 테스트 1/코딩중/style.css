@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+
+html {
+  --color-texta: #fff;
+  --color-textb: #1d1d1d;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.portfolio {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  color: #fff;
+}
+
+.hamburger {
+  width: 100px;
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  right: -50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.hamburger div {
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.hamburger div:nth-child(1) {
+  transform: translateY(0) rotate(0deg);
+}
+
+.hamburger div:nth-child(2) {
+  transform: translateY(8px) rotate(0deg);
+}
+
+.hamburger div:nth-child(3) {
+  transform: translateY(16px) rotate(0deg);
+}
+
+.hamburger.active div:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active div:nth-child(2) {
+  transform: translateY(8px) rotate(0deg);
+  opacity: 0;
+}
+
+.hamburger.active div:nth-child(3) {
+  transform: translateY(0px) rotate(-45deg);
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+  gap: 30px;
+  font-size: 200px;
+}
+
+.menu.show {
+  display: block;
+}
+
+.text-effect {
+  display: flex;
+  align-items: left;
+  text-align: left;
+}
+
+.text-effect span {
+  font-size: 240px;
+  letter-spacing: -45px;
+}
+
+.text-effect .letter-h {
+  position: relative;
+  right: 15px;
+}
+
+.text-effect .letter-e {
+  position: relative;
+  left: 17px;
+}
+
+.text-effect .letter-y {
+  position: relative;
+  left: 30px; /* 오른쪽으로 10px 이동 */
+}
+
+
+.text-effect p {
+  font-size: 105px;
+}
+
+.text-effect .hangout-text {
+  font-size: 47px;
+}
+
+.text-effect .letter-h,
+.text-effect .letter-e,
+.text-effect .letter-y {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* 기본 텍스트 애니메이션 설정 */
+.text-effect span:nth-child(2) {
+  animation: stretchE 1s ease forwards;
+}
+
+/* "E" 애니메이션 */
+.text-effect .letter-e {
+  position: relative;
+  left: 0; /* 초기 위치를 0으로 설정 */
+  animation: slideInE 1s ease forwards;
+}
+
+@keyframes stretchE {
+  from {
+    transform: scaleX(1);
+    transform-origin: 0% 100%; /* 왼쪽 아래를 기준점으로 설정 */
+  }
+  to {
+    transform: scaleX(2); /* 가로로 2배로 늘어나도록 설정 */
+    transform-origin: 0% 100%; /* 왼쪽 아래를 기준점으로 설정 */
+  }
+}
+
+
+
+
+@keyframes slideInE {
+  from {
+    transform: scaleX(0); /* 초기 크기를 0으로 설정 */
+    transform-origin: left; /* 변형 기준점을 왼쪽으로 설정 */
+    opacity: 0;
+  }
+  to {
+    transform: scaleX(1); /* 원래 크기로 확대 */
+    opacity: 1;
+  }
+}
+
+
+
+.text-effect p:nth-child(3) {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: slideUp 0.5s ease forwards 0.5s;
+}
+
+.text-effect p:nth-child(4) {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: slideUp 1.5s ease forwards 1.5s;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+.text-effect .hangout-text {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: slideUp 1s ease forwards 3s;
+}
+
+
+/* PC 화면 크기에서 변경된 스타일 */
+@media screen and (min-width: 769px) {
+  .portfolio {
+    font-size: 80px;
+  }
+
+  .hamburger {
+    top: 10px;
+    right: -50px;
+    font-size: 60px;
+  }
+
+  .hamburger div {
+    width: 60px;
+    height: 6px;
+  }
+
+  .menu {
+    font-size: 300px;
+  }
+
+  .text-effect span {
+    font-size: 330px;
+  }
+
+  .text-effect p {
+    top: 20px;
+    font-size: 200px;
+  }
+
+  .text-effect .hangout-text {
+    font-size: 80px;
+  }
+}
+
+/* 마우스 */
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid var(--color-texta);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  backdrop-filter: sepia(20%);
+  background-size: cover;
+}
+
+/* 마우스 커서 오버됐을 때의 효과 */
+.cursor-grow {
+  transform: scale(2);
+  background-color: var(--color-texta);
+}
